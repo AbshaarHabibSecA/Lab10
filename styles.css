@@ -1,0 +1,38 @@
+:root {
+    --bs-primary: #4CAF50;
+    --bs-primary-hover: #388E3C;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 1rem 0;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-primary-hover);
+    color: #fff;
+}
